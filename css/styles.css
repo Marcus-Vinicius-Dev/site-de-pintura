@@ -21,7 +21,7 @@ header {
 }
 
 .logo img {
-    max-height: 100px;
+    max-height: 150px;
 }
 
 nav ul {
@@ -132,14 +132,20 @@ section {
     right: 10px;
 }
 
+section#contato {
+    margin-bottom: 100px; /* Adiciona margem na parte inferior da seção de contato */
+}
+
 footer {
-    background: #333;
-    color: white;
-    text-align: center;
-    padding: 1rem;
+    /* Mantém a posição fixa do rodapé */
     position: fixed;
     bottom: 0;
     width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    z-index: 999; /* Garante que o rodapé fique acima dos outros conteúdos, se necessário */
 }
 
 /* Responsividade */
