@@ -10,7 +10,12 @@ header {
     justify-content: space-between;
     background: white;
     padding: 1rem;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
 .logo img {
@@ -43,6 +48,7 @@ nav ul li a {
 
 section {
     padding: 2rem;
+    margin-top: 120px; /* Adiciona um espaço para compensar o cabeçalho fixo */
 }
 
 footer {
