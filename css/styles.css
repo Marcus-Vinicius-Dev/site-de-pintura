@@ -131,6 +131,31 @@ section {
 .proximo {
     right: 10px;
 }
+/* CSS para o ícone do WhatsApp */
+/* CSS para o ícone do WhatsApp */
+.whatsapp-link {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.whatsapp-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: #25D366; /* Cor de fundo do ícone */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none; /* Remove a borda */
+}
+
+.whatsapp-icon img {
+    width: 60%;
+    height: auto;
+}
 
 footer {
     /* Mantém a posição fixa do rodapé */
