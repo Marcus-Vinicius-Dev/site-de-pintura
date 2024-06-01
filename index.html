@@ -6,6 +6,8 @@
     <title>Serviços de Pintura de Edifícios</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 </head>
 <body>
     <header>
@@ -15,10 +17,8 @@
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#about">Quem Somos</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#projects">Obras Executadas</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="#galeria">Galeria de fotos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
         <div class="contact">
@@ -26,21 +26,22 @@
         </div>
     </header>
     <section id="home">
+        <h2>Home</h2>
         <img src="img/banner-pintura.png" alt="Banner de Pintura" class="responsive-banner">
     </section>
-    <section id="about">
-        <h2>Sobre Nós</h2>
-        <p>Informações sobre a empresa...</p>
-    </section>
-    <section id="services">
-        <h2>Nossos Serviços</h2>
-        <p>Descrição dos serviços...</p>
-    </section>
-    <section id="projects">
-        <h2>Obras Executadas</h2>
-        <p>Descrição dos projetos realizados...</p>
-    </section>
-    <section id="contact">
+    <section id="galeria">
+        <h2>Galeria de fotos</h2>
+        <div class="miniaturas">
+            <img src="img/01.jpg" alt="Foto 01">
+            <img src="img/02.jpg" alt="Foto 02">
+            <img src="img/03.jpg" alt="Foto 03">
+        </div>
+        <div class="modal">
+            <span class="fechar">&times;</span>
+            <img class="imagem-modal" src="" alt="">
+        </div>
+    </section>    
+    <section id="contato">
         <h2>Contato</h2>
         <form>
             <label for="name">Nome:</label>
@@ -53,6 +54,8 @@
     <footer>
         <p>&copy; 2024 Empresa de Pintura</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
     <script src="js/scripts.js"></script>
 </body>
 </html>
