@@ -76,3 +76,11 @@ footer {
         align-self: flex-end;
     }
 }
+
+/* Estilo Responsivo para o Banner */
+.responsive-banner {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
