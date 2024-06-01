@@ -50,7 +50,7 @@ nav ul li a {
 
 section {
     padding: 2rem;
-    margin-top: 150px; /* Adiciona um espaço para compensar o cabeçalho fixo */
+    margin-top: 100px; /* Adiciona um espaço para compensar o cabeçalho fixo */
 }
 
 #galeria {
@@ -79,7 +79,7 @@ section {
 }
 
 .miniaturas img {
-    width: 100px; /* Ajuste conforme necessário */
+    width: 15%; /* Ajuste conforme necessário */
     height: auto;
     margin: 5px;
     cursor: pointer;
