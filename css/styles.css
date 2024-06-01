@@ -21,7 +21,7 @@ header {
 }
 
 .logo img {
-    max-height: 150px;
+    max-height: 100px;
 }
 
 nav ul {
@@ -50,7 +50,7 @@ nav ul li a {
 
 section {
     padding: 2rem;
-    margin-top: 120px; /* Adiciona um espaço para compensar o cabeçalho fixo */
+    margin-top: 150px; /* Adiciona um espaço para compensar o cabeçalho fixo */
 }
 
 #galeria {
