@@ -132,13 +132,8 @@ section {
     right: 10px;
 }
 
-section#contato {
-    margin-bottom: 100px; /* Adiciona margem na parte inferior da seção de contato */
-}
-
 footer {
     /* Mantém a posição fixa do rodapé */
-    position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #333;
