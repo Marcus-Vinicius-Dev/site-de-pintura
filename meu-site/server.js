@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: process.env.EMAIL_USER,
-        pass: process.env.EMAIL_PASS
+        user: process.env.EMAIL_USER, // usando variáveis de ambiente
+        pass: process.env.EMAIL_PASS  // usando variáveis de ambiente
     }
 });
 
@@ -22,7 +22,7 @@ app.post('/send-email', (req, res) => {
     const { nome, telefone, email, mensagem } = req.body;
 
     const mailOptions = {
-        from: process.env.EMAIL_USER,
+        from: process.env.EMAIL_USER, // usando variáveis de ambiente
         to: process.env.EMAIL_USER,
         subject: 'Novo contato de cliente',
         text: `Nome: ${nome}\nTelefone: ${telefone}\nE-mail: ${email}\nMensagem: ${mensagem}`
