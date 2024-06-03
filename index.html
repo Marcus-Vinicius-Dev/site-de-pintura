@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços de Pintura de Edifícios</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo-jair.png" alt="Logo da Empresa">
+        </div>
+            <nav>
+                <ul>
+                <li class="nav-item home">Home</li>
+                <li class="nav-item galeria">Galeria de fotos</li>
+                <li class="nav-item contato">Contato</li>
+                </ul>
+            </nav>          
+        <div class="contact">
+            <a href="https://wa.me/+5511954928959" target="_blank">(11) 95492-8959</a>
+        </div>
+    </header>
+    <section id="home">
+        <h2>Home</h2>
+        <img src="img/banner-pintura.png" alt="Banner de Pintura" class="responsive-banner">
+    </section>
+    <section id="galeria">
+        <h2>Galeria de fotos</h2>
+        <div class="miniaturas">
+            <img src="img/01.jpg" alt="Foto 01">
+            <img src="img/02.jpg" alt="Foto 02">
+            <img src="img/03.jpg" alt="Foto 03">
+        </div>
+        <div class="modal">
+            <span class="fechar">&times;</span>
+            <img class="imagem-modal" src="" alt="">
+            <button class="anterior">Anterior</button>
+            <button class="proximo">Próximo</button>
+        </div>
+    </section>    
+    <section id="contato">
+        <h2 style="text-align: center;">CONTATO</h2>
+        <p style="text-align: center;">Ainda tem dúvidas sobre os serviços, entre em contato e solicite seu orçamento.</p>
+        <p style="text-align: center;">JAIR Pintura e Reforma</p>
+        <p style="text-align: center;">Email: jair598890@gmail.com.br</p>
+        <p style="text-align: center;">Telefone e WhatsApp: (11) 95492-8959</p>
+        <form action="http://localhost:3000/send-email" method="post" style="margin: 0 auto; max-width: 400px; display: flex; flex-direction: column;">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" style="width: 100%; margin-bottom: 20px; border-radius: 5px; height: 40px;">
+        
+            <label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" style="width: 100%; margin-bottom: 20px; border-radius: 5px; height: 40px;">
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" style="width: 100%; margin-bottom: 20px; border-radius: 5px; height: 40px;">
+        
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem" style="width: 100%; margin-bottom: 20px; border-radius: 5px; height: 160px;"></textarea>
+        
+            <button type="submit" style="width: calc(20% - 10px); background-color: #2F92AF; color: white; padding: 10px; border: none; border-radius: 5px; cursor: pointer; align-self: flex-end;">Enviar</button>
+        </form>                       
+    </section>    
+    <a href="https://wa.me/+5511954928959" class="whatsapp-link" target="_blank">
+        <img src="img/whatsapp-icon.png" alt="WhatsApp" class="whatsapp-icon">
+    </a>
+    <footer style="background-color: #FF3131; color: white; text-align: center; padding: 1rem;">
+        <p>&copy; 2024 Empresa de Pintura e Reformas</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
