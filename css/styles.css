@@ -79,7 +79,7 @@ section {
 }
 
 .miniaturas img {
-    width: 15%; /* Ajuste conforme necessário */
+    width: 30%; /* Ajuste conforme necessário */
     height: auto;
     margin: 5px;
     cursor: pointer;
@@ -98,7 +98,7 @@ section {
 }
 
 .modal img {
-    max-width: 90%; /* Ajusta a largura máxima da imagem */
+    max-width: 70%; /* Ajusta a largura máxima da imagem */
     max-height: 90%; /* Ajusta a altura máxima da imagem */
     margin-top: 5%; /* Adiciona um pequeno espaço acima da imagem */
 }
